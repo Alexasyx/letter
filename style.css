@@ -168,7 +168,20 @@ body {
  .valentines-day:hover .text {
    transform: translateY(-50px);
  }
- 
+  @media screen and (min-width: 300px) {
+  .side {
+    height:550px;
+ }
+ .side.one {
+    background:linear-gradient(90deg, #fff, #fff 40%, #ddd);
+ }
+ .side.two {
+    background:linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+ }
+ body {
+  height: 100vh;
+}
+ }
  
 
 
